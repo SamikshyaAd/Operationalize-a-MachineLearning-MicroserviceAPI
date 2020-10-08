@@ -16,7 +16,7 @@ The microservice serves out predictions (inference) about housing prices through
 * Install dependencies via project `Makefile`. Dependencies are listed in the file `requirements.txt`.
 Run `make install` to install the necessary dependencies
 
-* While you still have your virtualenv environment activated, you will need to `install`:
+While you still have your virtualenv environment activated, you will need to `install`:
 
 ### Docker
 You will need to use Docker to build and upload a containerized application. If you already have this installed and created a docker account, you may skip this step.
@@ -29,7 +29,7 @@ You will need to use Docker to build and upload a containerized application. If 
 
 ### Hadolint
 
-### Run Lint Checks
+#### Run Lint Checks
 This project also must pass two lint checks; `hadolint` checks the Dockerfile for errors and `pylint` checks the app.py source code for errors.
 * Install `hadolint` following the instructions, on hadolint's page: https://github.com/hadolint/hadolint
 
