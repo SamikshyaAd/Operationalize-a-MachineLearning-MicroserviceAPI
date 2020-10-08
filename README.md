@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+
 
 # Operationalize-a-Machine-Learning-Microservice-API
 
