@@ -12,7 +12,7 @@ dockerpath="samikshya234/docimg"
 kubectl run microservice\
     --generator=run-pod/v1\
     --image=$dockerpath\
-    --port=80
+    --port=80 --labels app=microservice
 
 
 # Step 3:
@@ -20,5 +20,5 @@ kubectl run microservice\
 kubectl get pods
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward deployment/microservice 8000:80
+kubectl port-forward microservice 8000:80
 
