@@ -1,5 +1,5 @@
 
-[![SamikshyaAd](https://circleci.com/<gh>/SamikshyaAd/Operationalize-a-MachineLearning-MicroserviceAPI.svg?style=svg)](https://github.com/SamikshyaAd/Operationalize-a-MachineLearning-MicroserviceAPI.git)
+[![CircleCI](https://circleci.com/<gh>/SamikshyaAd/Operationalize-a-MachineLearning-MicroserviceAPI.svg?style=svg)](https://github.com/SamikshyaAd/Operationalize-a-MachineLearning-MicroserviceAPI.git)
 
 # Operationalize-a-Machine-Learning-Microservice-API
 
