@@ -1,10 +1,21 @@
 
+[![SamikshyaAd](https://circleci.com/<gh>/SamikshyaAd/Operationalize-a-MachineLearning-MicroserviceAPI.svg?style=svg)](https://github.com/SamikshyaAd/Operationalize-a-MachineLearning-MicroserviceAPI.git)
 
 # Operationalize-a-Machine-Learning-Microservice-API
 
 ## Project Overview
 The goal of this project is to oprationalize a machine learning microservice using kubernetes cluster. This project deploys containerized python flask application on kubernetes cluster.  
 The microservice serves out predictions (inference) about housing prices through API calls. It uses pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios and many more.
+
+## Files included
+* `config.yml`: CircleCI configuration file for running the tests
+* `app.py`: Python flask app that serves out predictions (inference) about housing prices through API calls
+* `Dockerfile`: Dockerfile for building the image
+* `make_prediction.sh`: Send a request to the Python flask app to get a prediction for localhost
+* `Makefile`: includes instructions on environment setup and lint tests
+* `run_docker.sh`: file to be able to get Docker running, locally
+* `run_kubernetes.sh`: file to run the app in kubernetes
+* `upload_docker.sh`: file to upload the image to docker
 
 
 ## Setup the Environment
@@ -121,13 +132,3 @@ Call `minikube delete`
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
-
-## Files included
-* `config.yml`: CircleCI configuration file for running the tests
-* `app.py`: Python flask app that serves out predictions (inference) about housing prices through API calls
-* `Dockerfile`: Dockerfile for building the image
-* `make_prediction.sh`: Send a request to the Python flask app to get a prediction for localhost
-* `Makefile`: includes instructions on environment setup and lint tests
-* `run_docker.sh`: file to be able to get Docker running, locally
-* `run_kubernetes.sh`: file to run the app in kubernetes
-* `upload_docker.sh`: file to upload the image to docker
